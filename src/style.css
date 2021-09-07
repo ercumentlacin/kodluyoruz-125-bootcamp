@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.test {
+  display: flex;
+}
+
+.grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px 10px;
+  background: grey;
+}
+
+.ant-skeleton-header {
+  width: inherit;
+}
+
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: hsl(27deg 85% 43%);
+  border-color: hsl(27deg 85% 43%);
+}
+
+.btn-primary:hover {
+  background-color: hsl(27deg 85% 53%);
+  border-color: hsl(27deg 85% 53%);
+}
